@@ -17,6 +17,7 @@ Through this fun project i've learned to:
 ---
 
 Documentations:
-
-<img src="./doc/antoify_web.gif" width="50%">
-<img src="./doc/antoify.gif" width="50%">
+<p>
+<img src="./doc/antoify_web.gif" width="45%"/>
+<img src="./doc/antoify.gif" width="45%"/>
+</p>
