@@ -14,5 +14,7 @@ Through this fun project i've learned to:
 - Implement single client socket io connections with unique session id
 - Deploy a webapp into a live server (heroku)
 
-
-![Screenshot Antoify](./doc/antoify.png)
+---
+Documentations:
+![Screenshot Antoify](./doc/antoify.png =100x)
+![Screenshot Antoify Web](./doc/antoify_web.png =100x)
