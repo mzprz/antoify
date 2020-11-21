@@ -4,7 +4,7 @@
   "description": "Python program to automatically parse sentence into the style of Indonesian dad",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Prasetyo W.",
   "license": "ISC",
@@ -12,8 +12,5 @@
     "express": "^4.17.1",
     "socket.io": "^3.0.3"
   },
-  "devDependencies": {},
-  "scripts": {
-    "start": "node index.js"
-  }
+  "devDependencies": {}
 }
