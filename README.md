@@ -18,5 +18,5 @@ Through this fun project i've learned to:
 
 Documentations:
 
-<img src="./doc/antoify_web.gif" width="100px">
-<img src="./doc/antoify.gif" width="100px">
+<img src="./doc/antoify_web.gif" width="50%">
+<img src="./doc/antoify.gif" width="50%">
