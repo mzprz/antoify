@@ -6,7 +6,7 @@ const spawn = require('child_process').spawn;
 // var dataString = '';
 
 // App setup
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const server = app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);
@@ -38,7 +38,7 @@ io.on("connection", function (socket) {
       console.log("Req Count:", req_count);
       console.log("Input:", data);
       console.log("Output:", dataString);
-      
+
       io.emit("reply", dataString);
     });
 
