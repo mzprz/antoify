@@ -6,8 +6,10 @@ const inputmsg = document.querySelector(".inputmsg_text");
 const inputmsgForm = document.querySelector(".inputmsg");
 
 function copyFunc() {
-  navigator.clipboard.writeText(replymsg.value);
-  alert("Copied!");
+  if(replymsg.value != ''){
+    navigator.clipboard.writeText(replymsg.value);
+    alert("Copied!");
+  }
 }
 
 inputmsgForm.addEventListener("submit", (e) => {
