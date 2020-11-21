@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANTOIFY</title>
+    <link rel = "icon" href = "./icon.jpg" type = "image/x-icon"> 
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&family=Texturina:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="containertitle">
+      <center><u>  <h1 style="font-family: 'Roboto Mono', monospace;">ANTOIFY</h1></center>  </u><br>
+    </div>
+
+    <div class="container">
+      <form class="inputmsg">
+        <input type="text" class="inputmsg_text" placeholder="Type a message"/>
+        <button class="inputmsg_button btn btn-primary" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <div class="container">
+      <input type="text" id="replymsg" class="replymsg" placeholder="Please enter a sentence" readonly/>
+      <button onclick="copyFunc()" type="submit" class="btn btn-default">
+        Copy
+      </button>
+    </div>
+
+    <center style="font-family: 'Roboto Mono', monospace;"> Prasetyo W. | 2020 | <a href="https://github.com/mzprz/antoify">Repo</a></center>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
