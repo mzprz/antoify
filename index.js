@@ -14,6 +14,7 @@ const server = app.listen(PORT, function () {
 });
 
 var req_count = 0;
+var dataString = '';
 
 // Static files
 app.use(express.static("public"));
