@@ -18,8 +18,5 @@ Through this fun project i've learned to:
 
 Documentations:
 
-
-![Screenshot Antoify](./doc/antoify.png =100x)
-
-
-![Screenshot Antoify Web](./doc/antoify_web.png =100x)
+<img src="./doc/antoify_web.gif" width="100px">
+<img src="./doc/antoify.gif" width="100px">
