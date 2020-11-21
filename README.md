@@ -18,6 +18,6 @@ Through this fun project i've learned to:
 
 Documentations:
 <p>
-<img src="./doc/antoify_web.gif" width="45%"/>
 <img src="./doc/antoify.gif" width="45%"/>
+<img src="./doc/antoify_web.gif" width="45%"/>
 </p>
